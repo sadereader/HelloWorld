@@ -1,2 +1,0 @@
-abcde HEX Equals 123456 Plus 246810 Plus
-222333 Plus 111111.
