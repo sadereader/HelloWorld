@@ -5,6 +5,7 @@ int main() {
 	for (i = 0; i < 100; i++)
 	{
 		printf("%d\n", i * i);
+		i++;
 	}
 	printf("Hello world\n");
 
