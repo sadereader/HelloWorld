@@ -1,6 +1,6 @@
 CC=gcc
 COPT=-Wall -c
-
+# comments
 all: helloworld
 
 helloworld: helloworld.o
