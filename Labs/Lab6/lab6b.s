@@ -21,10 +21,16 @@ newLSDigit:
 	mov %rdi, %rax
 	mov %rsi, %rdx
 
+	/*
 	shl $2, %rax	# ix4
 	add %rdi, %rax	# i+ ix4
 	add %rax, %rax	# i(5) + i(5)
 	mov %rax, %rdi	# rdi = inVal *= 10;
+	*/
+	shl $3, %rax	# ix8
+	add %rdi, %rax	# i+ ix8
+	add %rdi, %rax	# i+ ix9
+	mov %rax, %rdi	#rdi = inVal *= 10;
 
 	mov %rsi, %rax
 	sub $0x30, %rax
