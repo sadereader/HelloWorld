@@ -8,7 +8,7 @@ int newLSDigit(int inVal, char inChar) {
 	inVal += (inChar - '0');
 	return inVal;
 }
-
+// lol
 // Convert a base-10 digit string to an integer
 void strToInt(int * return2Here, char aString[]) {
 	int temp = 0;
