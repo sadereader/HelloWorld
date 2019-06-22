@@ -27,4 +27,4 @@ lab6b.o: lab6b.s
 #	gcc -c -g -Wall -O0 lab6b.c
 
 clean:
-	rm -rf *.o
+	rm -rf *.o lab6
